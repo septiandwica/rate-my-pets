@@ -1,6 +1,6 @@
 // src/api/api.js
 
-const API_BASE_URL = "http://54.253.201.195/api"; // Ganti dengan URL API Anda
+const API_BASE_URL = "http://54.253.201.195:80/api"; // Ganti dengan URL API Anda
 
 // Fungsi untuk melakukan POST request
 const postRequest = async (endpoint, body, token = null) => {
