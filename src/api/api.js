@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://54.253.201.195:80/api"; 
+const API_BASE_URL = "https://f6c5f2fbf2f6.ngrok-free.app/api"; 
 
 // Fungsi untuk melakukan POST request
 const postRequest = async (endpoint, body, token = null) => {
@@ -214,7 +214,7 @@ export const resetPassword = async (token, password) => {
 // Fungsi untuk memulai login/register Google (OAuth)
 export const startGoogleOAuth = () => {
   // Ganti port sesuai backend jika perlu
-  window.location.href = "http://54.253.201.195:80/api/auth/google";
+  window.location.href = "https://f6c5f2fbf2f6.ngrok-free.app/api/auth/google";
 };
 
 // Fungsi untuk memproses token hasil redirect Google OAuth
